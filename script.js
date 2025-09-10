@@ -16,6 +16,9 @@ buttons.forEach((eve)=>{
          if(button.target.id === 'yellow'){
             body.style.backgroundColor = button.target.id;
         }
+           if(button.target.id === 'purple'){
+            body.style.backgroundColor = button.target.id;
+        }
 
     });
 });
